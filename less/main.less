@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import "vars";
+
+
+
+h2 {
+    text-align: center;
+}
+
+/*Ajuste de FullWidth*/
+
+.page-template {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+/*Esquema por defecto para las secciones*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    .col {
+        width: 50%;
+    }
+    .col2 {
+        width: 33%;
+    }
+}
+
+/*Ajuste general*/
+
+.template-section {
+   
+        padding: 50px 0;
+    
+
+    .contenedor {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col {
+        min-height: 500px;
+        padding: 60px;
+    }
+    
+    h1 {
+        color: white;
+          font-family: 'Myriad Pro';
+        font-weight: bold;
+            font-size: 68px;
+        
+    }
+
+    h2 {
+        color: @azul;
+          font-family: 'Myriad Pro';
+           font-size: 58px;
+        font-weight: bold;
+        line-height: 1.3em;
+
+    }
+    h3 {
+        color: @gris;
+         font-family: 'Myriad Pro';
+            font-size: 39px;
+        
+    }
+
+    p,
+    ul {
+        color: @gris;
+        font-size: 1.2em;
+        font-family: 'Myriad Pro';
+    }
+
+    ul {
+        li {
+                font-family: 'Myriad Pro';
+            position: relative;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            &::before {
+                content: "•";
+                color: @azul;
+                padding-right: 10px;
+                position: absolute;
+                left: -15px;
+            }
+        }
+
+    }
+
+
+
+    .btn {
+        transition: all 0.3s ease-in-out;
+       font-family: 'Myriad Pro';
+            text-transform: none;
+            font-size: 30px;
+         -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 18px;
+        
+            background: @azul;
+            color: white;
+           padding: 15px 25px;
+        /*    &:hover {
+                background: @azul;
+            }
+        */
+    }
+}
+
+.row {
+   
+    display: inherit;
+}
+#banner {
+    background: url(../img/banner.png) center no-repeat;
+      
+       padding: 300px 0;
+    h1, p {
+            position: relative;
+    top: 152px;
+    left: 390px;
+    }
+    p {
+        margin-top: -20px;
+        color: white;
+            font-size: 29px;
+    }
+   
+}
+#weare {
+     background: url(../img/weare.png) center no-repeat;
+        padding: 200px 0;
+    h2, p {
+        text-align: center;
+            font-size: 58px;
+    position: relative;
+    right: 313px;
+            line-height: 1em;
+    }
+}
+#purchase {
+    background-color: @gris_claro;
+    h3 {
+        font-size: 38px;
+        font-weight: bold;
+            position: relative;
+    top: 25px;
+    }
+    .col {
+            min-height: inherit;
+    }
+}
+#year {
+     background: url(../img/subscriptions.png) center no-repeat;
+    h2.sus {
+            margin-bottom: 50px;
+    }
+    .prueba_col2 {
+        p {
+             position: relative;
+                top: 65px;
+            right: 20px;
+            text-align: left;
+            font-size: 18px;
+             color: white;
+        }
+        
+        h2 {
+             position: relative;
+                    top: 40px;
+            right: 20px;
+            text-align: left;
+            color: @gris;
+            font-size: 46px;
+        }
+    }
+    .prueba_col {
+        
+        h3,p, a {
+        
+    text-align: left;
+    position: relative;
+    left: 50px;
+       top: -25px;
+
+    }
+        h3 {
+            font-size: 29px;
+        }
+        p {
+            font-size: 16px;
+        }
+        
+    }
+}
+#available {
+    text-align: center;
+    background-color: @gris_claro;
+    .prueba_col2 {
+        margin-right: 20px;
+        .btn {
+            
+
+    position: relative;
+    top: 50px;
+        }
+    }
+    .prueba_col {
+            margin-left: 20px;
+    }
+    .col {
+        background-color: white;
+    }
+    h3 {
+        color: @azul;
+        font-size: 39px;
+    }
+    p{
+     font-size: 29px;   
+    }
+}
+#attention {
+    text-align: center;
+    h2 {
+    color: @rojo;
+    }
+    .contenedor {
+            max-width: 1000px;
+    }
+}
+#costumer {
+     background: url(../img/support.png) center no-repeat;
+        padding: 100px 0;
+    .contenedor {
+           position: relative;
+    right: 350px;
+    max-width: 500px;
+    }
+    
+}
+#server {
+        background: url(../img/pareja.png) center no-repeat;
+        padding: 65px 0;
+        h2 {
+                text-align: left;
+    color: white;
+    font-weight: normal;
+    position: relative;
+    left: 150px;
+        }
+    }
+footer {
+    padding: 30px 0;
+    background-color: @gris;
+   
+  li, a {
+           margin-top: 10px;
+        color: white;
+         text-align: center;
+        font-size: 14px;
+    }
+    a {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    p {
+         margin-top: 10px;
+         text-align: center;
+        font-size: 14px;
+        color: #cfcfcf;
+    }
+
+    
+}
+@import "responsive";
