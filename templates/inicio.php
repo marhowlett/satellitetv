@@ -55,7 +55,7 @@ in English!</h3>
     (US$50.00/Month*)</h3>
     <p>* Per receiver. All Subscriptions <br>
 are payable 1-year in advance.</p>
-     <a href="#" class="btn">ORDER NOW</a>
+     <a href="https://satellitetvmexico.com/product/order/" class="btn">ORDER NOW</a>
     </div>
       </div>
         </div>
@@ -74,14 +74,14 @@ are payable 1-year in advance.</p>
 w/Remote Control.</strong></p>
    <p>Watch live programming with <br>
 Essential HD receiver.</p>
-     <a href="#" class="btn">US$300.00</a>
+     <a href="https://satellitetvmexico.com/product/order/" class="btn">US$300.00</a>
     </div>
     <div class="col prueba_col">
     <h3>Watch and Record</h3>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tv2 copia 2.png" alt="Logo">
                 <p><strong> Hi-Def PVR w/Remote <br>Control.</strong></p>
    <p>Pause, rewind and record a <br>collection of your favourites<br> with and Advanced HDPVR.</p>
-     <a href="#" class="btn">US $550.00</a>
+     <a href="https://satellitetvmexico.com/product/order/" class="btn">US $550.00</a>
     </div>
       </div>
         </div>
@@ -112,7 +112,7 @@ Essential HD receiver.</p>
  <section id="server" class="template-section">
 <h2>We are here to serve you and to <br>keep you happily watching your<br> favorite programs!</h2>
 </section>
-<footer>
+<!--<footer>
     <nav>
   <ul>
     <li><a href="#">Home </a>
@@ -126,7 +126,7 @@ Essential HD receiver.</p>
   </ul>
 </nav>
 <p>©2019 SMA Satellite, LLC. All Rights Reserved.   |   Website Problems? <a href="">Click to send email</a></p>
-</footer>
+</footer>-->
 <?php 
     get_footer();
 ?>

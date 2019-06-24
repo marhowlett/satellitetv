@@ -93,6 +93,9 @@ h2 {
 .row {
   display: inherit;
 }
+body.home .row {
+  display: inherit;
+}
 #banner {
   background: url(../img/banner.png) center no-repeat;
   padding: 300px 0;
@@ -242,6 +245,26 @@ footer p {
   font-size: 14px;
   color: #cfcfcf;
 }
+@media (min-width: 1025px) {
+  body.product-template-default .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.woocommerce label.wwob-checkbox-label p.wwob-item-name,
+.woocommerce span.wwobinput_price {
+  color: white!important;
+}
+.extended-checkboxes ul.wwobfield_checkbox li,
+.extended-checkboxes ul.wwobfield_checkbox li {
+  width: 47.3%;
+}
+.woodmart-prefooter {
+  padding-bottom: initial;
+}
+#menu-menu-principal-2 {
+  width: 481px!important;
+}
 @media screen and (max-width: 1540px) {
   #banner {
     background: url(../img/banner2.png) center no-repeat;
@@ -255,5 +278,152 @@ footer p {
   #weare {
     background: url(../img/weare2.png) center no-repeat;
     padding: 142px 0;
+  }
+}
+@media (max-width: 768px) {
+  .offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  /*Ajuste de logo al momento de hacer scroll*/
+  .whb-sticked .whb-general-header .woodmart-logo img {
+    transform: scale(1.6) translateY(11px);
+  }
+}
+@media screen and (max-width: 750px) {
+  /*LOGO*/
+  .whb-scroll-stick .woodmart-logo img {
+    padding-top: 0;
+    transform: scale(2) translateY(15px);
+  }
+  canvas {
+    touch-action: auto !important;
+  }
+  .scene-nav {
+    display: none;
+  }
+  /*Esquema por defecto para las secciones*/
+  .grid {
+    display: initial;
+  }
+  .grid .col {
+    width: 100%;
+  }
+  .grid .col2 {
+    width: 100%;
+  }
+  .grid.invertido {
+    flex-wrap: wrap-reverse;
+  }
+  .template-section a.btn {
+    /* margin: 0 auto; */
+    /* display: block; */
+    /* margin-top: 25px; */
+    padding: 15px;
+    /* margin-left: 10px!important; */
+    /* margin-right: 10px; */
+    font-size: 16px;
+  }
+  .template-section .col {
+    min-height: auto;
+    padding: 20px;
+  }
+  .template-section h1 {
+    font-size: 48px;
+  }
+  .template-section h2 {
+    font-size: 39px;
+  }
+  #banner {
+    background: url(../img/bannermovil.png) center no-repeat;
+  }
+  #banner p {
+    font-size: 23px;
+    left: 25px;
+  }
+  #banner h1 {
+    left: 25px;
+  }
+  #weare {
+    background: url(../img/wearemovil.png) center no-repeat;
+    padding: 34px 0;
+    margin-top: 142px;
+  }
+  #weare h2,
+  #weare p {
+    font-size: 41px;
+    position: relative;
+    top: -173px;
+    right: inherit;
+  }
+  #weare strong {
+    margin-bottom: 20px;
+  }
+  #purchase h3 {
+    text-align: center;
+    font-size: 22px;
+  }
+  #year {
+    background: url(../img/subscriptionsmovil.png) center no-repeat;
+    background-position: top;
+    padding: 35px 0;
+    margin-top: 95px;
+  }
+  #year .prueba_col2 h2 {
+    font-size: 25px!important;
+    right: inherit;
+    top: -215px;
+    text-align: center;
+  }
+  #year .prueba_col2 p {
+    top: -160px;
+    right: -20px;
+    font-size: 14px;
+  }
+  #year .prueba_col h3 {
+    font-size: 17px;
+  }
+  #year .prueba_col h3,
+  #year .prueba_col p,
+  #year .prueba_col a {
+    left: 40px;
+    top: -111px;
+  }
+  #year .prueba_col p {
+    top: -105px;
+  }
+  #available .contenedor {
+    max-width: 350px;
+  }
+  #available .prueba_col {
+    margin-left: inherit;
+    margin-top: 43px;
+  }
+  .prueba_col2 .btn {
+    top: inherit!important;
+  }
+  #attention .contenedor {
+    max-width: 350px;
+  }
+  #costumer {
+    margin-top: -137px;
+    padding: inherit;
+    background: url(../img/supportmovil.png) center no-repeat;
+    margin-bottom: 465px;
+  }
+  #costumer .contenedor {
+    position: relative;
+    right: inherit;
+    max-width: 350px;
+    top: 409px;
+  }
+  #server {
+    padding: 77px 0;
+  }
+  #server h2 {
+    left: 35px;
+    font-size: 25px;
+    top: -49px;
   }
 }
