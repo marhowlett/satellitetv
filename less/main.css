@@ -204,6 +204,15 @@ body.home .row {
 #attention .contenedor {
   max-width: 1000px;
 }
+#info .center {
+  text-align: center;
+}
+#info h2 {
+  color: #004a88;
+}
+#info .contenedor {
+  max-width: 1000px;
+}
 #costumer {
   background: url(../img/support.png) center no-repeat;
   padding: 100px 0;
