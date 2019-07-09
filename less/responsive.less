@@ -1,27 +1,32 @@
 // main: main.less
 
-@media screen and (max-width: 1540px)  {
+@media screen and (max-width: 1540px) {
     #banner {
-  background: url(../img/banner2.png) center no-repeat;
-            padding: 200px 0;
-        h1, p {
-               top: 140px;
-    left: 280px;
+        background: url(../img/banner2.png) center no-repeat;
+        padding: 200px 0;
+
+        h1,
+        p {
+            top: 140px;
+            left: 280px;
         }
     }
+
     #weare {
-         background: url(../img/weare2.png) center no-repeat;
-              padding: 142px 0;
+        background: url(../img/weare2.png) center no-repeat;
+        padding: 142px 0;
     }
 }
 
 
 @media (max-width: 768px) {
-.offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
-    display: none;
+    .offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+        display: none;
+    }
 }
-}
+
 @media screen and (min-width: 1025px) {
+
     /*Ajuste de logo al momento de hacer scroll*/
     .whb-sticked .whb-general-header .woodmart-logo img {
         transform: scale(1.6) translateY(11px);
@@ -31,47 +36,49 @@
 
 
 @media screen and (max-width: 750px) {
-    
+
     /*LOGO*/
     .whb-scroll-stick .woodmart-logo img {
-    padding-top: 0;
-    transform: scale(2) translateY(15px);
-}
-    
-    //Fix slide
-    
-    canvas{
-        touch-action:auto !important;
+        padding-top: 0;
+        transform: scale(1.3) translateY(15px);
     }
-    
-    .scene-nav{
+
+    //Fix slide
+
+    canvas {
+        touch-action: auto !important;
+    }
+
+    .scene-nav {
         display: none;
     }
-    
+
     /*Esquema por defecto para las secciones*/
     .grid {
-		    display: initial;
+        display: initial;
+
         .col {
             width: 100%;
         }
+
         .col2 {
             width: 100%;
         }
-        
-        &.invertido{
+
+        &.invertido {
             flex-wrap: wrap-reverse;
-        } 
+        }
     }
-    
-.template-section a.btn {
-       /* margin: 0 auto; */
-    /* display: block; */
-    /* margin-top: 25px; */
-    padding: 15px;
-    /* margin-left: 10px!important; */
-    /* margin-right: 10px; */
-    font-size: 16px;
-}
+
+    .template-section a.btn {
+        /* margin: 0 auto; */
+        /* display: block; */
+        /* margin-top: 25px; */
+        padding: 15px;
+        /* margin-left: 10px!important; */
+        /* margin-right: 10px; */
+        font-size: 16px;
+    }
 
 
     .template-section {
@@ -79,116 +86,171 @@
             min-height: auto;
             padding: 20px;
         }
-		h1 {
-			        font-size: 48px;
-		}
+
+        h1 {
+            font-size: 48px;
+        }
+
         h2 {
-            font-size: 39px;
+            font-size: 30px;
+        }
+        h3{
+            font-size: 25px;
         }
     }
+
     #banner {
-    background: url(../img/bannermovil.png) center no-repeat;
+        background: url(../img/bannermovil.png) center no-repeat;
+
         p {
-                font-size: 23px;
-                left: 25px;
+            font-size: 23px;
+            left: 25px;
         }
+
         h1 {
-                left: 25px;
+            left: 25px;
         }
-        
-}
+
+    }
+
     #weare {
-    background: url(../img/wearemovil.png) center no-repeat;
-            padding: 34px 0;
-            margin-top: 142px;
-        h2, p {
+        background: url(../img/wearemovil.png) center no-repeat;
+        padding: 34px 0;
+        margin-top: 142px;
+
+        h2,
+        p {
             font-size: 41px;
             position: relative;
-    top: -173px;
-        right: inherit;
+            top: -173px;
+            right: inherit;
         }
+
         strong {
             margin-bottom: 20px;
         }
     }
+
     #purchase h3 {
-    text-align: center;
+        text-align: center;
         font-size: 22px;
     }
+
     #year {
-   background: url(../img/subscriptionsmovil.png) center no-repeat;
-            background-position: top;
-    padding: 35px 0;
-    margin-top: 95px;
+        background: url(../img/subscriptionsmovil.png) center no-repeat;
+        background-position: top;
+        padding: 35px 0;
+        margin-top: 95px;
+
         .prueba_col2 {
-        h2 {
-          font-size: 25px!important;
+            h2 {
+                font-size: 25px !important;
                 right: inherit;
                 top: -215px;
-    text-align: center;
-            
+                text-align: center;
+
+            }
+
+            p {
+                top: -160px;
+                right: -20px;
+
+                font-size: 14px;
+            }
         }
-        p {
-                  top: -160px;
-    right: -20px;
-  
-            font-size: 14px;
-        }
-        }
+
         .prueba_col {
             h3 {
                 font-size: 17px;
             }
-            h3, p, a {
-                        left: 40px;
-    top: -111px;
+
+            h3,
+            p,
+            a {
+                left: 40px;
+                top: -111px;
             }
+
             p {
-                    top: -105px;
+                top: -105px;
             }
-           
+
         }
-       
-}
+
+    }
+
     #available {
-      
+
         .contenedor {
-    max-width: 350px;
+            max-width: 350px;
         }
-   .prueba_col {
-    margin-left: inherit;
-    margin-top: 43px;
-}
+
+        .prueba_col {
+            margin-left: inherit;
+            margin-top: 43px;
+        }
+
+        p {
+            font-size: 20px;
+        }
     }
+
     .prueba_col2 .btn {
-  
-        top: inherit!important;
-}
+
+        top: inherit !important;
+    }
+
     #attention .contenedor {
-    max-width: 350px;
-}
+        max-width: 350px;
+    }
+
     #costumer {
-            margin-top: -137px;
-            padding: inherit;
-    background: url(../img/supportmovil.png) center no-repeat;
-            margin-bottom: 465px;
+        margin-top: -137px;
+        padding: inherit;
+        background: url(../img/supportmovil.png) center no-repeat;
+        margin-bottom: 465px;
+
         .contenedor {
-    position: relative;
-    right: inherit;
-    max-width: 350px;
-    top: 409px;
+            position: relative;
+            right: inherit;
+            max-width: 350px;
+            top: 409px;
         }
     }
+
     #server {
-   
-              padding: 77px 0;
+        background-size: cover;
+        padding: 77px 0;
+
         h2 {
-                left: 35px;
-    font-size: 25px;
-    top: -49px;
+            font-size: 19px;
+            text-shadow: 2px 3px 4px #000;
+            position: inherit;
+            padding: 0 6px;
+        }
+    }
+    
+    #info{
+        .contenedor{
+            padding: 0 20px;
+            
+            h3{
+                text-align: center;
+            }
+        }
+    }
+
+    footer {
+        nav ul li {
+            margin: 10px;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+
+            a {
+                padding-right: 10px;
+                padding-left: 10px;
+            }
         }
     }
 }
-
-
-
